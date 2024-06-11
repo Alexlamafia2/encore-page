@@ -1,20 +1,11 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header/Header";
-import powderCoating from "../assets/video/PowderCoating.mov";
 
 export default function RootLayout() {
   return (
     <>
-      {/* <video
-        className="absolute top-0 w-full h-full object-cover -z-30"
-        autoPlay
-        loop
-        muted
-      >
-        <source src={powderCoating} type="video/mp4" />
-        Your browser does not support the video tag. //{" "}
-      </video> */}
       <Header />
+      {/* <div className="absolute h-full w-full top-0 bg-gray-100 bg-opacity-90 -z-20"></div> */}
       <main>
         <Outlet></Outlet>
       </main>

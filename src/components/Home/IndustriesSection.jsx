@@ -9,7 +9,7 @@ export default function IndustriesSection() {
       <h1 className="text-center text-5xl py-5 text-gray-600">
         Industries we serve
       </h1>
-      <div class="grid grid-cols-1 grid-rows-3 gap-0 grid-container justify-center items-center my-10 ">
+      <div className="grid grid-cols-1 grid-rows-3 gap-0 grid-container justify-center items-center my-10 ">
         <div className="relative group flex flex-col items-center justify-center mx-60 my-10 shadow-xl ">
           <Link className="relative text-white border-gray-500 ">
             <img
